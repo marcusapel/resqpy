@@ -20,7 +20,7 @@ CONTENT_TYPE_RESQML_DISCRETE = 'application/x-resqml+xml;version=2.0;type=resqml
 class EtpConfig:
     ws_uri: str
     dataspace: str
-    app_name: str = 'ecl2resqml_etp'
+    app_name: str = 'ecl2etp'
     auth_token: str | None = None
 
 
